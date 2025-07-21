@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------------------
+Q1. Two Sum : A = {3,2,10,11,7,15}, Target(9)
+         Problem: Given an array of integers and a target, return the indices of the two numbers that add up to the target.
+         Topic: Arrays, Hash Map
+-------------------------------------------------------------------------------------------
+Q2. Reverse Number  
+-------------------------------------------------------------------------------------------
+Q3. Sum of nth number without using loops;
+-------------------------------------------------------------------------------------------
+Q4. Check palimdrom string.
+-------------------------------------------------------------------------------------------
+Q5.  Remove All Duplicates From String
+     Input: "aabbccddeea"
+     Output: "abcdea"
+-------------------------------------------------------------------------------------------
+Q6. 6. Find First Non-Repeating Character
+    Example:
+    Input: "aabccdeff"
+    Output: 'b'
