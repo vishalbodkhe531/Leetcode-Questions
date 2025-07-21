@@ -9,11 +9,16 @@ Q3. Sum of nth number without using loops;
 -------------------------------------------------------------------------------------------
 Q4. Check palimdrom string.
 -------------------------------------------------------------------------------------------
-Q5.  Remove All Duplicates From String
-     Input: "aabbccddeea"
-     Output: "abcdea"
+Q5. Remove All Duplicates From String
+    Input: "aabbccddeea"
+    Output: "abcdea"
 -------------------------------------------------------------------------------------------
-Q6. 6. Find First Non-Repeating Character
+Q6. Find Non-Repeating Character
     Example:
     Input: "aabccdeff"
-    Output: 'b'
+    Output: 'bde'
+-------------------------------------------------------------------------------------------
+Q7. Find Maximum in Array
+    Input: [1, 3, 2, 7, 5] 
+    Output: 7
+-------------------------------------------------------------------------------------------
