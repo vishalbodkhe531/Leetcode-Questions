@@ -2,19 +2,25 @@
 using namespace std;
 
 int main() {
-  string str = "madam";
-  bool isPalimdrom = false;
+   int arr[] = {1, 3, 12, 3, 5, 0, 8, 5, 0, 1, 2};
+  int pointer = 0;
+  int length = sizeof(arr) / sizeof(arr[0]);
 
-  for (int i = 0; i < str.length() / 2; i++) {
-    if ((str[i] == (str[str.length() - i - 1]))) {
-      isPalimdrom = true;
-    } else {
-      isPalimdrom = false;
-      break;
+  for (int i : arr) {
+    if (i != 0) {
+      arr[pointer] = i;
+      pointer++;
     }
   }
 
-  cout << "Ans is palimdrom or not is : " << isPalimdrom;
+  while (pointer < length) {
+    arr[pointer] = 0;
+    pointer++;
+  }
+
+  for (int i : arr) {
+    cout << i << " ";
+  }
 
   return 0;
 }
