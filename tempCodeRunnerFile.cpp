@@ -1,26 +1,45 @@
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//   int arr[5] = {1, 2, 3, 4, 5};
+
+//   int length = sizeof(arr) / sizeof(arr[0]);
+
+//   for (int i = 0; i < length; i++) {
+//     for (int j = i; j < length; j++) {
+//       int sum = 0;
+//       for (int k = i; k < j; k++) {
+//         cout << arr[k];
+//         sum += arr[k];
+//       }
+//       sum == 0 ? cout << "" : cout << " = " << sum << endl;
+//     }
+//     cout << endl;
+//   }
+
+//   return 0;
+// }
+
+#include <climits>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-   int arr[] = {1, 3, 12, 3, 5, 0, 8, 5, 0, 1, 2};
-  int pointer = 0;
-  int length = sizeof(arr) / sizeof(arr[0]);
+  int arr[5] = {1, 2, 3, 4, 5};
+  int maxSum = INT_MIN;
 
-  for (int i : arr) {
-    if (i != 0) {
-      arr[pointer] = i;
-      pointer++;
+  int length = sizeof(arr) / sizeof(arr[0]);
+  for (int i = 0; i < length; i++) {
+    int currentSum = 0;
+    for (int j = i; j < length; j++) {
+      currentSum += arr[j];
+      maxSum = max(currentSum, maxSum);
     }
   }
 
-  while (pointer < length) {
-    arr[pointer] = 0;
-    pointer++;
-  }
-
-  for (int i : arr) {
-    cout << i << " ";
-  }
+  cout << maxSum;
 
   return 0;
 }

@@ -20,7 +20,7 @@ int main() {
 
   // ans = 2,0
 
-  for (int i = 2; i < arr.size(); i++) {
+  for (int i = 0; i < arr.size(); i++) {
     int sec = target - arr[i];
     if (map.find(sec) != map.end()) {  // map.end() means "not found".
       ans.push_back(i);

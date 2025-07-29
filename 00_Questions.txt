@@ -30,3 +30,7 @@ Q9. Move Zeros to End
     Move all 0's to the end of the array while maintaining the order of non-zero elements.
     Example: [0, 1, 0, 3, 12] → [1, 3, 12, 0, 0]
 -------------------------------------------------------------------------------------------
+Q10. Single Number;
+     Example : Input:  nums = [2, 2, 1]  
+     Output: 1
+------------------------------------------------------------------------------------------
