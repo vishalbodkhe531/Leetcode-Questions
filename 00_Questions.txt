@@ -34,3 +34,15 @@ Q10. Single Number;
      Example : Input:  nums = [2, 2, 1]  
      Output: 1
 ------------------------------------------------------------------------------------------
+Q11. Maximum SubArray Sum (Solve with Kedane's Algorithm)
+     Given an integer array nums, find the subarray with the largest sum, and return its sum.
+     Example: Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+     Output: 6
+     Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+-------------------------------------------------------------------------------------------
+Q12. Majority Elements
+     Given an array nums of size n, return the majority element.
+     The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.   
+     Example : nums = [2,2,1,1,1,2,2]
+     Output: 2
+-------------------------------------------------------------------------------------------
