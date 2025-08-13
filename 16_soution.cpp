@@ -4,7 +4,7 @@
 using namespace std;
 
 bool isPossibleValue(vector<int> arr, int n, int totlePainters,
-  int maxAllowedTime) {
+                     int maxAllowedTime) {
   //  maxAllowedTime = 70,34,
   //  arr = {40, 30, 10, 20};
   //  time = 40,70,0,40,30,10,30
