@@ -3,7 +3,8 @@ Q1. Two Sum : A = {3,2,10,11,7,15}, Target(9)
          Problem: Given an array of integers and a target, return the indices of the two numbers that add up to the target.
          Topic: Arrays, Hash Map
 -------------------------------------------------------------------------------------------
-Q2. Reverse Number  
+Q2. Reverse Number
+    Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 -------------------------------------------------------------------------------------------
 Q3. Sum of nth number without using loops;
 -------------------------------------------------------------------------------------------
