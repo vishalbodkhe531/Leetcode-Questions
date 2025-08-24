@@ -1,12 +1,17 @@
 #include <iostream>
-#include <map>
+#include <string>
 using namespace std;
 
 int main() {
-  map<string, int> x;
-  x["a"] = 3;
+  string str = "daabcbaabcbc";
+  string part = "abc";
 
-  
+  while (str.find(part) <= str.length()) {
+    int idx = str.find(part);
+    str.erase(idx, part.length());
+  }
+
+  cout << str;
 
   return 0;
 }

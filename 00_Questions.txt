@@ -1,4 +1,6 @@
--------------------------------------------------------------------------------------------
+*******************************************************************************************
+                                ARRAY OR VECTOR PRACTICE QUESTIONS
+*******************************************************************************************
 Q1. Two Sum : A = {3,2,10,11,7,15}, Target(9)
          Problem: Given an array of integers and a target, return the indices of the two numbers that add up to the target.
          Topic: Arrays, Hash Map
@@ -64,4 +66,17 @@ Q18. sort array with 0 1 2
 Q19. Merg two sorted array
      Example : arr1 = [1,2,3,0,0,0], Here we have given extra space 
                arr2 = [2,5,6]
+
+*******************************************************************************************
+                                STRING PRACTICE QUESTIONS
+*******************************************************************************************
+Q20. Valid Palindrome (ignore Non Alphanumeric characters)
+     Input: s = "A man, a plan, a canal: Panama"
+     Output: true
+     Explanation: "amanaplanacanalpanama" is a palindrome.
 -------------------------------------------------------------------------------------------
+Q21. Remove All Occurrences of a Substring
+     Input: s = "daabcbaabcbc", part = "abc"
+     Output: "dab"
+-------------------------------------------------------------------------------------------
+
