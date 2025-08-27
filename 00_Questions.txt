@@ -1,5 +1,5 @@
 *******************************************************************************************
-                                ARRAY OR VECTOR PRACTICE QUESTIONS
+                                ARRAY | VECTOR QUESTIONS
 *******************************************************************************************
 Q1. Two Sum : A = {3,2,10,11,7,15}, Target(9)
          Problem: Given an array of integers and a target, return the indices of the two numbers that add up to the target.
@@ -68,7 +68,7 @@ Q19. Merg two sorted array
                arr2 = [2,5,6]
 
 *******************************************************************************************
-                                STRING PRACTICE QUESTIONS
+                                STRING QUESTIONS
 *******************************************************************************************
 Q20. Valid Palindrome (ignore Non Alphanumeric characters)
      Input: s = "A man, a plan, a canal: Panama"
@@ -82,5 +82,9 @@ Q21. Remove All Occurrences of a Substring
 Q22. Reverse String
      Input: s = ["h","e","l","l","o"]
      Output: ["o","l","l","e","h"]
+-------------------------------------------------------------------------------------------
+Q22. Reverse Words in a String
+     Input: s = "the sky is blue"
+     Output: "blue is sky the"
 -------------------------------------------------------------------------------------------
 
