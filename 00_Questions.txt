@@ -70,21 +70,26 @@ Q19. Merg two sorted array
 *******************************************************************************************
                                 STRING QUESTIONS
 *******************************************************************************************
-Q20. Valid Palindrome (ignore Non Alphanumeric characters)
+Q20. Valid Palindrome (ignore Non Alphanumeric characters) :
      Input: s = "A man, a plan, a canal: Panama"
      Output: true
      Explanation: "amanaplanacanalpanama" is a palindrome.
 -------------------------------------------------------------------------------------------
-Q21. Remove All Occurrences of a Substring
+Q21. Remove All Occurrences of a Substring : 
      Input: s = "daabcbaabcbc", part = "abc"
      Output: "dab"
 -------------------------------------------------------------------------------------------
-Q22. Reverse String
+Q22. Reverse String : 
      Input: s = ["h","e","l","l","o"]
      Output: ["o","l","l","e","h"]
 -------------------------------------------------------------------------------------------
-Q22. Reverse Words in a String
+Q23. Reverse Words in a String : 
      Input: s = "the sky is blue"
      Output: "blue is sky the"
 -------------------------------------------------------------------------------------------
-
+Q24. Count Primes :
+     Given an integer n, return the number of prime numbers that are strictly less than n.
+     Input: n = 10
+     Output: 4
+     Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7. 
+-------------------------------------------------------------------------------------------
