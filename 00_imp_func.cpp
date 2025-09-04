@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cmath>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -19,6 +20,11 @@ int main() {
   for (int i : arr1) {
     cout << i << " ";
   }
+
+  // count digits
+  int number = 123;
+  cout << endl
+       << "Totle numbers are : " << (int)(log10(number) + 1);  // need cmath
 
   return 0;
 }
